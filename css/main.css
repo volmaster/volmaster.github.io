@@ -358,7 +358,7 @@ table {
   transform: translate3d(0, 20px, 0);
 }
 footer {
-  padding: 3em;
+  padding: 12em 0 3em;
   text-align: center;
 }
 footer a {

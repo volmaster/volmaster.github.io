@@ -357,6 +357,25 @@ table {
   -webkit-transform: translate3d(0, 20px, 0);
   transform: translate3d(0, 20px, 0);
 }
+footer {
+  padding: 3em;
+  text-align: center;
+}
+footer a {
+  outline: none;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3em;
+  transition: .7s;
+}
+footer a:hover {
+  color: #f44336;
+  transition: .7s;
+}
+footer a i.fa {
+  padding: 0px 10px;
+  font-size: 25px;
+}
 /* Media Queries */
 @media screen and (max-width: 1440px) {
   .item {

@@ -1,0 +1,52 @@
+@import "normalize";
+@import "style";
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+@font-face {
+  font-family: 'josefin_sansregular';
+  src: url('../font/josefinsans-regular-webfont.eot');
+  src: url('../font/josefinsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/josefinsans-regular-webfont.woff2') format('woff2'),
+  url('../font/josefinsans-regular-webfont.woff') format('woff'),
+  url('../font/josefinsans-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: '';
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+body {
+  background: url("../img/blueprint-bg-3.jpg") center no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1em;
+  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#svg-logo {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 3px;
+  width: 520px;
+  height: 200px;
+  @media screen and (min-width: 1000px) {
+    width: 700px;
+    height: 250px;
+  }
+}
+

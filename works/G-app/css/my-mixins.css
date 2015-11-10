@@ -1,0 +1,175 @@
+/**COLORS**/
+@font-face {
+  font-family: 'fabfeltscriptbold';
+  src: url('../font/fabfeltscript-bold-webfont.ttf');
+  src: url('../font/fabfeltscript-bold-webfont.eot');
+  font-weight: normal;
+  font-style: normal;
+}
+h2,
+h3 {
+  font-family: "FabfeltScript";
+  color: #98f2fd;
+}
+a {
+  outline: none !important;
+}
+/**BUTTON**/
+a.button-app {
+  padding: 8px 15px;
+  background-color: #98f2fd;
+  border-radius: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+  margin-top: 40px;
+}
+a.button-app:hover {
+  background: #14887e;
+  transition: 0.7s;
+}
+a.button {
+  background-color: #98f2fd;
+  border-radius: 30px;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 45px;
+  text-transform: uppercase;
+}
+a.button:hover {
+  background: #14887e;
+  transition: 0.7s;
+}
+/**DASHED-BOTTOM**/
+/**SPRITE ICON**/
+.sprite {
+  background: url(../img/spritesheet.png) no-repeat;
+  display: block;
+}
+.sprite-sm {
+  background: url(../img/sprite-small.png) no-repeat;
+  display: block;
+}
+/**PRICE-TABLE**/
+/**MEDIA**/
+@media (max-width: 992px) {
+  h2 {
+    font-size: 46px;
+  }
+  .header-text a.button-app {
+    margin-right: 10px;
+    padding: 8px 10px;
+  }
+  .panel-footer a.button {
+    font-size: 14px;
+  }
+}
+/* Sink */
+.hvr-sink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sink:hover,
+.hvr-sink:focus,
+.hvr-sink:active {
+  -webkit-transform: translateY(8px);
+  transform: translateY(8px);
+}
+#loading {
+  background-color: #45b29d;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  margin-top: 0px;
+  top: 0px;
+}
+#loading-center {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#loading-center-absolute {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 50px;
+  width: 150px;
+  margin-top: -25px;
+  margin-left: -75px;
+}
+.object {
+  width: 8px;
+  height: 50px;
+  margin-right: 5px;
+  background-color: #FFF;
+  -webkit-animation: animate 1s infinite;
+  animation: animate 1s infinite;
+  float: left;
+}
+.object:last-child {
+  margin-right: 0px;
+}
+.object:nth-child(10) {
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+}
+.object:nth-child(9) {
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+.object:nth-child(8) {
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+.object:nth-child(7) {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+.object:nth-child(6) {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+.object:nth-child(5) {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+.object:nth-child(4) {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+.object:nth-child(3) {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+.object:nth-child(2) {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+@-webkit-keyframes animate {
+  50% {
+    -ms-transform: scaleY(0);
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+  }
+}
+@keyframes animate {
+  50% {
+    -ms-transform: scaleY(0);
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+  }
+}

@@ -1,2 +1,2 @@
 Simple portfolio site with few examples of my work. <br>
-<a href="http://volmaster.github.io/">Simple portfolio</a>
+<a href="http://volmaster.github.io/">LINK</a>

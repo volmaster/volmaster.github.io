@@ -402,13 +402,7 @@ footer a i.fa {
     height: 90vw;
   }
 }
-@font-face {
-  font-family: 'josefin_sansregular';
-  src: url('../font/josefinsans-regular-webfont.eot');
-  src: url('../font/josefinsans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../font/josefinsans-regular-webfont.woff2') format('woff2'), url('../font/josefinsans-regular-webfont.woff') format('woff'), url('../font/josefinsans-regular-webfont.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+
 *,
 *:after,
 *:before {

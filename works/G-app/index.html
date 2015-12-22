@@ -309,7 +309,11 @@
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/wow.js"></script>
 <script>
-    new WOW().init();
+    new WOW({
+         mobile: false
+    }
+    )
+    wow.init();
     $(window).load(function () {
         $("#loading").fadeOut(2000);
     })

@@ -1,8 +1,12 @@
-body{
+body {
     background: rebeccapurple;
 }
 
-#svg2{
+.logo {
+    margin: 200px auto;
+}
+
+#svg2 {
     fill: none;
     stroke: #fff;
     stroke-width: 3px;

@@ -10,4 +10,11 @@ body {
     stroke-width: 3px;
     width: 371px;
     height: 49px;
+    fill-opacity: 0;
+    transition: fill-opacity 1s;
+}
+
+
+#svg2.finished * {
+    fill-opacity: 1;
 }

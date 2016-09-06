@@ -1,2 +1,2 @@
-Simple portfolio site with few examples of my work. <br>
+PSD to HTML examples. <br>
 <a href="http://volmaster.github.io/">LINK</a>
